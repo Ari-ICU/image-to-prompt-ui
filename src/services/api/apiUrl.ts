@@ -1,6 +1,6 @@
 // export const API_URL: string = process.env.NEXT_PUBLIC_API_URL || 'https://image-to-prompt-backend.onrender.com';
 
-export const API_URL: string = process.env.NEXT_PUBLIC_API_URL || 'localhost:4000';
+export const API_URL: string = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:4000';
 
 export const BASE_URL = `${API_URL}/api`;
 
