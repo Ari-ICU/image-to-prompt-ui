@@ -1,6 +1,4 @@
-// src/services/api/apiUrl.ts
-
-export const API_URL: string = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5000';
+export const API_URL: string = process.env.NEXT_PUBLIC_API_URL! || 'https://image-to-prompt-backend.onrender.com';
 
 export const BASE_URL = `${API_URL}/api`;
 
